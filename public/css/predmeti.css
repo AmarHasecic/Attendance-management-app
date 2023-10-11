@@ -1,0 +1,75 @@
+
+.menu {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: azure;
+
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.logout-button {
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.predmeti-button{
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.predmetiItem{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+}
+
+body{
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+
+}
+
+#lista-predmeta{
+  
+  position: fixed;
+  margin-top: 40px;
+  background-color: rgba(60, 60, 60, 0.123);
+  width: fit-content;
+  margin-left: 15px;
+  padding-left: 0px;
+  float: left;
+}
+
+
+#tabela-prisustva{
+  width: 60%; 
+  margin: 0 auto;
+}

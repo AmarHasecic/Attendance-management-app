@@ -1,0 +1,27 @@
+{
+  "name": "wt22p18673",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amarhasecic@bitbucket.org/etf_hasecic/wt22p18673.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/etf_hasecic/wt22p18673/issues"
+  },
+  "homepage": "https://bitbucket.org/etf_hasecic/wt22p18673#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.28.0"
+  }
+}
